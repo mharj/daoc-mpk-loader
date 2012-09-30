@@ -8,12 +8,12 @@ Loosely based from original Oliver Jowett dempak.c utility.
 <tr><th>MPK parts</th></tr>
 <tr><td>mpk name (stage 0)</td></tr>
 <tr><td>file index list (stage 1)</td></tr>
-<tr><td>...</td></tr>
+<tr><td>data</td></tr>
 <tr><td>...</td></tr>
 </table>
 <br/>
 <table>
-<tr><th>One Stage 1 index</th></tr>
+<tr><th colspan=2>One Stage 1 index</th></tr>
 <tr><td>name</td><td>char[256]</td></tr>
 <tr><td>timestamp(unix)</td><td>int</td></tr>
 <tr><td>??? (attrs?)</td><td>int</td></tr>
